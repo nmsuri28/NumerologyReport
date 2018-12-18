@@ -1,0 +1,75 @@
+body{
+    background: url(../images/square_bg/square_bg.png);
+}
+
+navigation a{
+    font-family: 'Indie Flower', cursive;
+    color: darkblue;
+    text-shadow: 2px 2px 4px #888888;
+    font-size: 28px;
+}
+
+navigation img{
+    height:105px;
+    width: 130px;
+}
+/*To create an edged shadow for any image I so choose...found here: https://css-tricks.com/snippets/css/css-box-shadow/*/
+.one-edge-shadow{
+    -webkit-box-shadow: 0 8px 6px -6px black;
+	-moz-box-shadow: 0 8px 6px -6px black;
+	box-shadow: 0 8px 6px -6px black;
+}
+.main img{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.main h1{
+    margin-top: 10px;
+    font-family:'Muli', sans-serif;
+    color: darkblue;
+    text-shadow: 2px 2px 8px #888888;
+    
+}
+
+.main p{
+    font-family: 'Indie Flower', cursive;
+    margin-top: 8px;
+    color: #888888;
+}
+
+#gradient{
+    background-image: radial-gradient(darkblue,black);
+    margin: 25px 10px 25px 10px;
+    padding: 25px 25px 25px 25px;
+    font-family:'Indie Flower', cursive;
+    color: white;
+}
+#number{
+    font-family: 'Muli', sans-serif;
+    font-size: 62px;
+    background-color:white;
+    border: 1px solid darkblue;
+    color: darkblue;
+    margin: 25px 10px 25px 10px;
+    text-align: center;
+    padding-top: 50px;
+}
+#footer{
+    background-color: white;
+    border-top: 5px solid darkblue; 
+    box-shadow: 0 -5px 5px -5px #888888;
+     /*Love this affect^! Found it here: https://gist.github.com/ocean90/1268328#file-box-shadow-html*/
+}
+
+#footer p{
+    font-family:'Indie Flower', cursive;
+    color: darkblue;
+    font-size: 16px;
+    padding: 10px 0 10px 0;
+    text-align: center;
+}
+
+/*Some notes:
+DRY- Do not repeat yourself --- could work on this a little more
+Footer - Need to work with this section a bit more
+*/
